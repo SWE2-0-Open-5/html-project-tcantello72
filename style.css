@@ -1,0 +1,255 @@
+
+body
+    {
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+header
+    {
+        width: 100%;
+        background-color: #3333ff;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+#headerParent
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 99.2%;
+        height: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 0px;
+        border-bottom: 1px solid black;
+        background-color: #3333ff;
+    }
+
+#headerImage
+    {
+        margin-left: 15px;
+    }
+
+#profilePic
+    {
+        border-radius: 50%;
+    }
+
+#headerName
+    {
+        display: flex;
+        flex-direction: column;
+        font-family: cursive;
+        font-size: larger;
+        font-style: oblique;
+        align-items: center;
+        justify-content: center;
+    }
+
+#headerIcons
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+    }
+
+.protIcon
+    {
+        margin-right: 30px;
+    }
+
+#footerParent
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 100%;
+        height: 35px;
+        border-top: 1px solid black;
+        background-color: #3333ff;
+        position: fix;
+        bottom: 0px;
+    }
+
+#footerChild
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+
+main
+    {
+        width: 100%;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #8080ff;
+    }
+
+#mainChild
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+#mainChildText
+    {
+        display: flex;
+        color: white;
+        font-size: larger;
+        font-style: italic;
+        align-items: center;
+        justify-content: center;
+    }
+
+figure
+    {
+        text-align: center;
+    }
+
+#bio-interests
+    {
+        font-weight: bolder;
+        font-size: xx-large;
+        text-align: center;
+    }
+
+#bio-family
+    {
+        font-weight: bolder;
+        font-size: large;
+        text-align: center;
+    }  
+    
+    #bio-family-pics
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        border-radius: 50%;
+    }
+
+#bio-sports-teams
+    {
+        font-weight: bolder;
+        font-size: large;
+        text-align: center;
+    }
+
+#bio-teams-logos
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+
+    }
+
+#bio-travels
+    {
+        font-weight: bolder;
+        font-size: large;
+        text-align: center;
+    }
+
+#bio-travel-pics
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+#bio-pics
+    {
+        border-radius: 50%;
+    }
+
+#exp-exp
+    {
+        font-weight: bolder;
+        font-size: xx-large;
+        text-align: center;
+    }
+
+#exp-programs
+    {
+        font-weight: bolder;
+        font-size: large;
+        text-align: center;
+    }
+
+#exp-programs-pics
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+#exp-editors
+    {
+        font-weight: bolder;
+        font-size: large;
+        text-align: center;
+    }
+
+#exp-editors-pics
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+#exp-edu
+    {
+        font-weight: bolder;
+        font-size: large;
+        text-align: center;
+    }
+
+#exp-edu-school-list
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+#exp-edu-school-info
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+#exp-edu-school-logo
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
