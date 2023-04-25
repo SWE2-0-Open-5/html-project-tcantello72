@@ -256,7 +256,6 @@ figure
     {
         display: flex;
         flex-direction: row;
-        align-items: center;
     }
 
 #port-window1
@@ -267,6 +266,20 @@ figure
     }
 
 #port-window2
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+#port-unity
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+#port-unity1
     {
         display: flex;
         flex-direction: row;
@@ -289,6 +302,16 @@ figure
     }
 
 .rock
+    {
+        text-align: center;
+    }
+
+.boss
+    {
+        text-align: center;
+    }
+
+.granny
     {
         text-align: center;
     }
