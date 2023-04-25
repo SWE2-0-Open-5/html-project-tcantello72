@@ -1,4 +1,3 @@
-
 body
     {
         background-color: white;
@@ -85,6 +84,16 @@ header
         justify-content: center;
     }
 
+h1 
+    {
+        text-align: center;
+    }
+
+h2
+    {
+        text-align: center;
+    }
+    
 main
     {
         width: 100%;
@@ -107,8 +116,11 @@ main
         color: white;
         font-size: larger;
         font-style: italic;
+        margin-left: 25px;
+        margin-right: 25px;
         align-items: center;
         justify-content: center;
+        
     }
 
 figure
@@ -116,21 +128,12 @@ figure
         text-align: center;
     }
 
-#bio-interests
+.bio-menu
     {
-        font-weight: bolder;
-        font-size: xx-large;
         text-align: center;
     }
 
-#bio-family
-    {
-        font-weight: bolder;
-        font-size: large;
-        text-align: center;
-    }  
-    
-    #bio-family-pics
+#bio-family-pics
     {
         display: flex;
         flex-direction: row;
@@ -138,13 +141,6 @@ figure
         width: 100%;
         justify-content: space-evenly;
         border-radius: 50%;
-    }
-
-#bio-sports-teams
-    {
-        font-weight: bolder;
-        font-size: large;
-        text-align: center;
     }
 
 #bio-teams-logos
@@ -155,13 +151,6 @@ figure
         width: 100%;
         justify-content: space-evenly;
 
-    }
-
-#bio-travels
-    {
-        font-weight: bolder;
-        font-size: large;
-        text-align: center;
     }
 
 #bio-travel-pics
@@ -178,17 +167,8 @@ figure
         border-radius: 50%;
     }
 
-#exp-exp
+.exp-menu
     {
-        font-weight: bolder;
-        font-size: xx-large;
-        text-align: center;
-    }
-
-#exp-programs
-    {
-        font-weight: bolder;
-        font-size: large;
         text-align: center;
     }
 
@@ -202,13 +182,6 @@ figure
         align-items: center;
     }
 
-#exp-editors
-    {
-        font-weight: bolder;
-        font-size: large;
-        text-align: center;
-    }
-
 #exp-editors-pics
     {
         display: flex;
@@ -217,13 +190,6 @@ figure
         width: 100%;
         justify-content: space-evenly;
         align-items: center;
-    }
-
-#exp-edu
-    {
-        font-weight: bolder;
-        font-size: large;
-        text-align: center;
     }
 
 #exp-edu-school-list
@@ -250,6 +216,54 @@ figure
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        align-items: center;
+        align-items: baseline;
+        text-align: center;
+    }
+
+#exp-awards
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: first baseline;
+    }
+
+#exp-award-school
+    {
+        text-decoration: underline;
+        text-align: center;
+        font-weight: bold;
+    }
+
+.exp-degree
+    {
+        text-align: center;
+    }
+
+.port-menu
+    {
+        text-align: center;
+    }
+
+#port-console
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+#port-window
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+.combat
+    {
+        text-align: center;
+    }
+
+.guess
+    {
         text-align: center;
     }

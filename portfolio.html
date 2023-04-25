@@ -14,7 +14,7 @@
                 <img id = "profilePic" src =./images/mainpage/toby.jpg width = "200" heigth = "200" alt = "Profile picture of Toby Cantello">
             </div>
             <div id = "headerName">
-                <p>Toby Cantello's Portolio</p>
+                <p>Toby Cantello's Portfolio</p>
             </div>
             <div id = "headerIcons">
                 <a href = "index.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
@@ -38,11 +38,44 @@
             </div>
         </div>
     </header>
-    <br>
     <main>
+    <br>
+    <br>
         <div id = "mainParent">
-
+            <div><h1>My Portfolio</h1>
+                <p class = "port-menu"><a href = "#console">Console Programs</a> | <a href = "#window">Windows Programs</a> | <a href = "#unity">Unity Games</a></p>
+            </div>
+            <br>
+            <div><h2 id = "console">Console Programs</h2></div>
+                <div id = "port-console">
+                    <div>
+                        <img src = "./images/portfolio/war.jpg" alt = "War Console Game" width = "400" height = "213">
+                    </div>
+                    <div class = "combat">
+                        <h4>Combat Arena</h4>
+                        <p>Game created for an assignment in my Game Programming class. Game is written in C# using Visual Studio 2022. The object of the game is to run your enemy's health
+                            out before they run yours out. Each turn the player chooses to either attack or heal themselves with one of the three healing potions they have. Both the attack damage 
+                            points and the healing points are created each time by a random number generator. The game runs from the command line.
+                        </p>
+                    </div>
+                </div>
+            <div><h2 id = "window">Window Programs</h2></div>
+                <div id = "port-window">
+                    <div class = "guess">
+                        <h4>Guessing Game</h4>
+                        <p>Game created for an assignment in my C# Programming class. Game is written in C# using Visual Studio 2022. The game was written as a Windows form and can be run from the 
+                            Windows OS. The game selects a random number from 1 to 100. The player tries to guess. After each guess the game will let the player know if they are to high or to low. 
+                            If they guess correctly the will give the banner as seen in the screen shot to the right. The game will keep count of how many guesses it took. Challenge your friends to see 
+                            who can guess their number the fastest. 
+                        </p>
+                    </div>
+                    <div>
+                        <img src = "./images/portfolio/guessing.jpg" alt = "Guessing Game"width = "338" height = "210">
+                    </div>
+                </div>
+            <div><h2 id = "unity">Unity Games</h2></div>
         </div>
+    <br>
     </main>
     <footer >
         <div id = "footerParent">
