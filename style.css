@@ -256,6 +256,21 @@ figure
     {
         display: flex;
         flex-direction: row;
+        align-items: center;
+    }
+
+#port-window1
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+#port-window2
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
 .combat
@@ -264,6 +279,16 @@ figure
     }
 
 .guess
+    {
+        text-align: center;
+    }
+
+.helper
+    {
+        text-align: center;
+    }
+
+.rock
     {
         text-align: center;
     }
